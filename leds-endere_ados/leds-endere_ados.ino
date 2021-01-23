@@ -19,7 +19,7 @@ void loop() {
       delay(DELAY);
     }
    led.clear();
-   for(int i=NUMERO_DE_LED; i<0; i--){
+   for(int i=NUMERO_DE_LED; i>0; i--){
       led.setPixelColor(i,led.Color(0,255,255));
       led.show();
       delay(DELAY);
